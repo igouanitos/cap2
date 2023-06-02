@@ -1,0 +1,48 @@
+.gradient_bg {
+	background: linear-gradient(-45deg, #ec3427, #ece91c, #23a6d5, #45f111);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#header{
+    height: 30vh;
+}
+#footer{
+	height: 20vh;
+}
+.profile_pic{
+    height: 250px;
+    border-radius: 50%;
+}
+.pic{
+    border-radius: 15%;
+}
+.bolder{
+	font-weight: bolder;
+}
+.mycard{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1,h2, h5{
+	font-family: 'Roboto Slab', serif;
+}
+p{
+	font-family: 'Nunito Sans', sans-serif;
+}
+li{
+	font-family: 'Nunito Sans', sans-serif;
+}
