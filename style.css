@@ -46,3 +46,9 @@ p{
 li{
 	font-family: 'Nunito Sans', sans-serif;
 }
+.card > img{
+	height: 300px;
+}
+.mycard2{
+	display: flex;
+}
