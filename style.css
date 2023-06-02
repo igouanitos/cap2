@@ -51,4 +51,5 @@ li{
 }
 .mycard2{
 	display: flex;
+	justify-content: center;
 }
